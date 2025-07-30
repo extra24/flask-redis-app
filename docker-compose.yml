@@ -8,5 +8,5 @@ services:
     depends_on:
       - redis
 
-  redis:
+  redis: 
     image: redis:alpine
